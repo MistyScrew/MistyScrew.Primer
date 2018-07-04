@@ -1,0 +1,653 @@
+document
+{
+  version:5;
+
+function
+{
+  name:set;
+  arg
+  {
+    1
+	{
+	  type:int-s;
+	};
+  };
+  result:type:set;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Set';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:to-number;
+  arg
+  {
+    1
+	{
+	  type:string;
+	};
+  };
+  result:type:number;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.ToDouble';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:to-number;
+  arg
+  {
+    1
+	{
+	  type:s-literal;
+	};
+  };
+  result:type:number;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.ToDouble';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:to-number;
+  arg
+  {
+    1
+	{
+	  type:int;
+	  cs-type:'System.Int32';
+	};
+  };
+  result:type:number;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.ToDouble';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:add;
+  arg
+  {
+    1
+	{
+	  type:number;
+	};
+    2
+	{
+	  type:number;
+	}
+  };
+  result:type:number;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Add';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:subtract;
+  arg
+  {
+    1
+	{
+	  type:number;
+	};
+    2
+	{
+	  type:number;
+	}
+  };
+  result:type:number;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Subtract';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:div;
+  arg
+  {
+    1
+	{
+	  type:number;
+	};
+    2
+	{
+	  type:number;
+	}
+  };
+  result:type:number;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Div';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:mul;
+  arg
+  {
+    1
+	{
+	  type:number;
+	};
+    2
+	{
+	  type:number;
+	}
+  };
+  result:type:number;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Mul';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:mod;
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+    2
+	{
+	  type:int;
+	}
+  };
+  result:type:int;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Mod';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:idiv;
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+    2
+	{
+	  type:int;
+	}
+  };
+  result:type:int;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.IDiv';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:to-int;
+  arg
+  {
+    1
+	{
+	  type:s-literal;
+	};
+  };
+  result:type:int;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.ToInt';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:to-double;
+  arg
+  {
+    1
+	{
+	  type:s-literal;
+	};
+  };
+  result:type:number;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.ToDouble';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:делитель;
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'set<int>';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Делитель';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:кратный;
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'set<int>';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Кратный';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:кроме;
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'set<int>';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Кроме';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:'<';
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'set<int>';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Меньше';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:'>';
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'set<int>';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Больше';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:'меньше';
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'set<int>';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Меньше';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:'больше';
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'set<int>';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Больше';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:n-значный;
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'set<int>';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.N_Значный';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:'четный';
+  arg
+  {
+  };
+  result:type:'set<int>';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Четный';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:'нечетный';
+  arg
+  {
+  };
+  result:type:'set<int>';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Нечетный';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+
+
+function
+{
+  name:eq;
+  arg
+  {
+    1
+	{
+	  type:any;
+	};
+    2
+	{
+	  type:any;
+	}
+  };
+  result:type:bool;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Eq';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:eq;
+  arg
+  {
+    1
+	{
+	  type:number;
+	  cs-type:'System.Double';
+	};
+    2
+	{
+	  type:number;
+	  cs-type:'System.Double';
+	}
+  };
+  result:type:bool;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Eq';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:eq;
+  arg
+  {
+    1
+	{
+	  type:int-s;
+	  cs-type:'System.Collections.Generic.IEnumerable`1[System.Int32]';
+	};
+    2
+	{
+	  type:int-s;
+	  cs-type:'System.Collections.Generic.IEnumerable`1[System.Int32]';
+	}
+  };
+  result:type:bool;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Eq';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:count;
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'int-s';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Count';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:min;
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'int-s';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Min';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:max;
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'int-s';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Max';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:sum;
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+  };
+  result:type:'int-s';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Sum';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:take;
+  arg
+  {
+    1
+	{
+	  type:int-s;
+	};
+    2
+	{
+	  type:int;
+	};
+  };
+  result:type:'int-s';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Take';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:'is?';
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+    2
+	{
+	  type:set;
+	};
+  };
+  result:type:'bool';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Is';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:четный;
+  synonym:кратный(2);
+};
+function
+{
+  name:'дробь';
+  arg
+  {
+    1
+	{
+	  type:int;
+	};
+    2
+	{
+	  type:int;
+	};
+  };
+  result:type:'fraction';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.Дробь';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:'правильность-дроби';
+  arg
+  {
+    1
+	{
+	  type:fraction;
+	};
+  };
+  result:type:'bool';
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.ПравильностьДроби';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:'правильная-дробь';
+  arg
+  {
+    1
+	{
+	  type:void;
+	};
+  };
+  result:type:set:fraction;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.ПравильнаяДробь';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+function
+{
+  name:'неправильная-дробь';
+  arg
+  {
+    1
+	{
+	  type:void;
+	};
+  };
+  result:type:set:fraction;
+  cs
+  {
+    name:'MistyScrew.QThinking.QFunctions.НеправильнаяДробь';
+	assembly:'MistyScrew.QThinking.dll';
+  }
+};
+
+};
