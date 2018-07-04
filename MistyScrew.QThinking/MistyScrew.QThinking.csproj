@@ -120,7 +120,6 @@
     <Content Include="packages.config" />
     <Content Include="Data\functions.qs" />
     <Content Include="Data\textbook.math.6.qs" />
-    <Content Include="Data\textbook.dev.qs" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
